@@ -22,7 +22,7 @@ global len_ini;      % initial length vector
 
 
 l = 5;                         % total length
-nel = 10;                       % number of locals
+nel = 20;                       % number of locals
 npe = 2;                        % number of nodes per local
 nnodes = (npe-1)*nel + 1;       % total number of nodes
 ndof = 3* nnodes;               % total number of positional degree of freedom
